@@ -1,0 +1,113 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', 'Segoe WP', system-ui, Arial, Sans-Serif;
+}
+
+body{
+background-image: url(imagen/fotoIVSS.jpg);
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 102% 110%;
+}
+/*---------------Divisor de codigo---------------*/
+.Menu_botons{
+width: 400px;
+background: #ffffff2f;
+padding: 30px;
+margin: auto;
+margin-top: 6px;
+border-radius: 4px;
+color: rgb(56, 3, 3);
+box-shadow: 7px 13px 37px #000;
+}
+
+.div{
+height: 70px;
+background-image: url(imagen/barra.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 100% 10%;
+}
+
+.Menu_botons h2{
+margin: auto;
+width: 300px;
+border-radius: 20px;
+font-size: 22px;
+margin-bottom: 20px;
+cursor: default;
+background-color: #e4e4e43d;
+}
+
+.Menu_botons .botons{
+width: 50%;
+background: rgba(175, 1, 1, 0.815);
+border: none;
+padding: 12px;
+color: rgb(255, 255, 255);
+margin: 5px;
+font-size: 12px;
+line-height: 10px;
+border-radius: 2px;
+cursor: pointer;
+margin-top: 10px;
+}
+
+.Menu_botons .botons:hover{
+background: rgba(255, 14, 14, 0.911);
+width: 53%;
+font-size: 12.5px;
+}
+
+
+.Menu_botons .boton_morosidad{
+width: 35%;
+background: rgba(100, 48, 0, 0.918);
+border: none;
+padding: 12px;
+color: rgb(255, 255, 255);
+margin: 5px;
+font-size: 12px;
+line-height: 10px;
+border-radius: 2px;
+cursor: pointer;
+margin-top: 40px;
+}
+
+.Menu_botons .boton_morosidad:hover{
+background: rgba(255, 60, 0, 0.966);
+width: 38%;
+font-size: 12.5px;
+}
+
+.Menu_botons .boton_excel{
+width: 35%;
+background: rgba(100, 48, 0, 0.918);
+border: none;
+padding: 12px;
+color: rgb(255, 255, 255);
+margin: 5px;
+font-size: 12px;
+line-height: 10px;
+border-radius: 2px;
+cursor: pointer;
+margin-top: 18px;
+}
+
+.Menu_botons .boton_excel:hover{
+background: rgba(255, 60, 0, 0.966);
+width: 38%;
+font-size: 12.5px;
+font-weight: 500;
+}
+
+h3{
+
+background-color: rgba(235, 226, 210, 0.486);
+text-align: center;
+margin: auto;
+margin-top: 25px;
+}

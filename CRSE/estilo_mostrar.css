@@ -1,0 +1,79 @@
+* {
+font-family: 'Segoe UI', 'Segoe WP', system-ui, Arial, Sans-Serif;
+}
+
+body{
+background-image: url(imagen/Fondo_IVSS.JPG);
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 100% 120%;
+}
+/*---------------Divisor de codigo---------------*/
+table{
+margin-top: 3%;
+margin-left: auto;
+margin-right: auto;
+border-collapse: collapse;
+}
+
+th{
+background-color: rgba(36, 33, 33, 0.884);
+color: rgb(207, 226, 226);
+text-align: center;
+}
+
+td{
+background-color: rgba(227, 238, 241, 0.733);
+font-family: 'Segoe UI', 'Segoe WP', system-ui, Arial, Sans-Serif;
+text-align: center;
+font-size: 110%;
+}
+
+#contenedor{
+margin: 0px 10px;
+}
+
+caption{
+padding-top: 10px;
+padding-bottom: 10px;
+font-style: italic;
+}
+
+td,th{
+border: 1px solid rgb(88, 88, 88);
+height: 50px;
+}
+
+.negrita{
+font-weight: 600;
+}
+
+.contenido:hover{
+background-color: rgb(84, 245, 119);
+}
+
+
+.boton{
+width: 25%;
+background: rgb(3, 40, 77);
+border-color: rgb(42, 48, 48);
+padding: 10px;
+color: rgb(221, 218, 218);
+margin: 3px 0;
+font-size: 14px;
+border-radius: 4px;
+line-height: 12px;
+cursor: pointer;
+}
+
+.boton:hover{
+background: rgb(69, 150, 231);
+width: 26%;
+font-size: 15px;
+color: black;
+font-weight: 600;
+
+}
+
+

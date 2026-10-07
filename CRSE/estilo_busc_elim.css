@@ -1,0 +1,270 @@
+* {
+margin: 0;
+padding: 0;
+font-family: 'Segoe UI', 'Segoe WP', system-ui, Arial, Sans-Serif;
+}
+    
+.body1{
+background-image: url(imagen/fotoIVSS3.jpg);
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 101% 110%;
+}
+
+.body2{
+background-image: url(imagen/fotoIVSS4.jpg);
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 101% 110%;
+}
+
+/*---------------Divisor de codigo---------------*/
+.form_buscar{
+width: 400px;
+background: #ffffff2f;
+padding: 30px;
+margin: auto;
+margin-top: 60px;
+border-radius: 4px;
+color: rgb(56, 3, 3);
+box-shadow: 7px 13px 37px #000;
+}
+
+.form_buscar h2{
+margin: auto;
+width: 400px;
+border-radius: 20px;
+font-size: 22px;
+margin-bottom: 20px;
+cursor: default;
+background-color: #e4e4e47c;
+}
+
+.form_buscar .text{
+width: 60%;
+background: rgb(206, 206, 206);
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 15px;
+font-size: 15px;
+border: 2px solid #961111e0;
+}
+
+.form_buscar .boton{
+width: 20%;
+background: rgba(175, 1, 1, 0.815);
+border: none;
+padding: 10px;
+color: rgb(255, 255, 255);
+margin: 3px 0;
+font-size: 12px;
+line-height: 12px;
+border-radius: 4px;
+cursor: pointer;
+position:relative;
+left: 10px;
+}
+
+.form_buscar .boton:hover{
+background: rgba(255, 14, 14, 0.911);
+width: 22%;
+font-size: 12.5px;
+}
+
+p{
+color: rgb(255, 255, 255);
+font-weight: 500;
+}
+
+h3{
+background-color: rgba(235, 226, 210, 0.486);
+text-align: center;
+margin: auto;
+margin-top: 25px;
+}
+
+/*---------------Divisor de codigo---------------*/
+
+.boton{
+width: 20%;
+background: rgba(175, 1, 1, 0.815);
+border: none;
+padding: 10px;
+color: rgb(255, 255, 255);
+margin: 3px 0;
+font-size: 12px;
+line-height: 12px;
+border-radius: 4px;
+cursor: pointer;
+margin-top: 15px;
+margin-bottom: 30px;
+}
+
+.boton:hover{
+background: rgba(255, 14, 14, 0.911);
+width: 21%;
+height: 25%;
+font-size: 12.5px;
+}
+
+.ins_buscar{
+width: 550px;
+background: #ffffff2f;
+padding: 30px;
+margin: auto;
+margin-top: 35px;
+border-radius: 4px;
+color: whitesmoke;
+box-shadow: 7px 13px 37px #000;
+}
+
+h2{
+text-align: center;
+width: 350px;
+margin-top: -10px;
+margin: auto;
+margin-bottom: 30px;
+border-radius: 20px;
+font-size: 22px;
+cursor: default;
+color:rgb(56, 3, 3);
+background-color:  #e4e4e47c;
+}
+
+.td{
+width: 200px;
+height: 25px;
+background-color: rgba(168, 168, 168, 0.514);
+}
+
+.td2{
+width: 300px;
+text-align: center;
+font-weight: 600;
+}
+
+tr:hover{
+background-color: rgba(250, 0, 0, 0.288);
+}
+
+.table{
+margin-left: 4%;
+margin-right: 3%;
+border-collapse: collapse;
+border-color: rgb(140, 215, 238);
+background-color: rgba(255, 255, 255, 0.623);
+color:rgb(2, 1, 1);
+font-weight: 650;
+font-size: 15px;
+}
+
+td{
+border: 1px solid rgb(126, 21, 21);
+padding-left: 6px;
+}
+
+/*---------------Divisor de codigo---------------*/
+.form_elim{
+width: 400px;
+background: #ffffff2f;
+padding: 30px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+color: whitesmoke;
+box-shadow: 7px 13px 37px #000;
+}
+
+.form_elim h2{
+text-align: center;
+width: 350px;
+margin-top: -10px;
+margin: auto;
+margin-bottom: 30px;
+border-radius: 20px;
+font-size: 22px;
+cursor: default;
+color:rgb(56, 3, 3);
+background-color:  #e4e4e47c;
+}
+    
+.form_elim .text{
+width: 90%;
+background: rgb(206, 206, 206);
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 15px;
+font-size: 15px;
+border: 2px solid #961111e0;
+}
+    
+.form_elim .boton{
+width: 25%;
+background: rgba(175, 1, 1, 0.815);
+border: none;
+padding: 10px;
+color: rgb(255, 255, 255);
+font-size: 12px;
+line-height: 12px;
+border-radius: 4px;
+cursor: pointer;
+}
+    
+.form_elim .boton:hover{
+background: rgba(255, 14, 14, 0.911);
+width: 27%;
+font-size: 12.5px;
+}
+
+/*---------------Divisor de codigo---------------*/
+
+.ins_elim{
+width: 400px;
+background: #ffffff2f;
+padding: 30px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+color: rgb(56, 3, 3);
+box-shadow: 7px 13px 37px #000;
+}
+
+.ins_elim .botons{
+width: 30%;
+background: rgba(175, 1, 1, 0.815);
+border: none;
+padding: 10px;
+color: rgb(255, 255, 255);
+font-size: 12px;
+line-height: 12px;
+border-radius: 4px;
+cursor: pointer;
+margin-top: 15px;
+margin-bottom: 20px;
+position: relative;
+left: 35%;
+}
+
+.ins_elim .botons:hover{
+background: rgba(255, 14, 14, 0.911);
+width: 32%;
+height: 35%;
+font-size: 12.5px;
+}
+
+.ins_elim h3{
+text-align: center;
+width: 350px;
+margin-top: -10px;
+margin: auto;
+margin-bottom: 10px;
+border-radius: 20px;
+font-size: 22px;
+cursor: default;
+color:rgb(121, 1, 1);
+background-color:  #e4e4e47c;
+}
+ 
+
